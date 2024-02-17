@@ -1,0 +1,140 @@
+
+
+@media(max-width:575px) {
+    .parentdiv {
+       max-width: 100%;
+    }
+ }
+ 
+ @media(min-width:576px) {
+    .parentdiv {
+       max-width: 540px;
+       margin: 0 auto;
+    }
+ }
+ 
+ @media(min-width:768px) {
+    .parentdiv {
+       max-width: 720px;
+       margin: 0 auto;
+    }
+    /* ? HEADER */
+    header a.button {
+       margin-right: 0px;
+    }
+    header img{
+        width:250px ;
+        height: 70px;
+    }
+    header a{
+        margin-right: 10px;
+    }
+    /* ? INTRODUCTION */
+    .intro-top .intro-top-left h1 {
+        font-size: 40px;
+     }
+     .intro-top .intro-top-right  img{
+        height: 500px;
+        width: 400px;
+        margin-left: 20PX;
+     }
+     .intro-bottom img:nth-child(4) {
+        display: none;
+    }
+    /* ? APPLY---- */
+    .apply .apply-left img{ 
+        width: 430px;
+       height: 650px;
+       margin-right: 30px;
+    }
+    section.apply {
+        margin-top: 10px;}
+
+     /* ? SOLUTIONS------------- */
+
+    .solutions .solutions-right img{
+        width: 450px;
+        margin-top: 50px;
+        margin-left: 100px;
+
+        
+
+    }
+    
+
+ 
+ }
+ 
+ 
+ 
+ @media(min-width:992px) {
+    .parentdiv {
+       max-width: 960px;
+       margin: 0 auto;
+    }
+    /* ? HEADER ----*/
+    header a.button {
+        margin-right: 50px;
+     }
+    header a{
+        margin-right: 30px;
+    }
+    header img{
+        width:283px ;
+        height: 57px;
+    }
+    /* ? INTRODUCTION--- */
+    .intro-top .intro-top-left h1 {
+        font-size: 55px;
+     }
+     .intro-top .intro-top-right  img{
+        height: 600px;
+        width: 550px; 
+     }
+     .intro-bottom  img {
+        
+        display: inline !important;
+    }
+    /* ? APPLY--- */
+    .apply .apply-left img{ 
+        width: 600px;
+       height: 600px;
+    } 
+
+    section.apply {
+    margin-top: 50px;}
+
+    /* ? SOLUTIONS----- */
+    .solutions .solutions-right img{
+        width: 630px;
+        height: 551px;
+        margin: 0px;
+
+    }
+    .solutions{
+        display: flex;}
+
+
+
+
+
+
+
+ }
+     
+
+ 
+
+
+
+
+
+
+
+
+ @media (min-width:1200px) {
+    .parentdiv {
+       max-width:1140px;
+       margin: 0 auto;
+    }
+ }
