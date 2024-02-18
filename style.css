@@ -41,10 +41,9 @@ header a {
 /* ? INTRODUCTION--------------------- */
 
 .intro-top {
-   display: flex;
+   /* display: flex; */
    justify-content: space-between;
    align-items: center;
-   margin-top: 70px;
 }
 
 .intro-top .intro-top-left h4 {
@@ -85,14 +84,14 @@ header a {
    display: flex;
    justify-content: space-around;
    align-items: center;
-   padding-top: 100px;
+ 
 
 }
 
 /* ?-----APPLY--------- */
 
 section.apply {
-   display: flex;
+   /* display: flex; */
    justify-content: space-between;
    align-items: center;
    
@@ -107,8 +106,7 @@ section.apply {
    opacity: .7;
 }
 
-.apply .apply-right {
-width: 560px;}
+
 
 /* ?----------CARDS-------- */
 .cards {
@@ -137,16 +135,12 @@ width: 560px;}
    
  }
  
- .solutions .solutions-left h1{
-   font-size: 35px;
- }
+ 
  .solutions .solutions-left p{
    font-size: 17px;
    opacity: .7;
  }
- .solutions .solutions-right{
-   padding: 0 20px;
- }
+
  /* ?--FOOTER----------------------- */
 
  footer{
