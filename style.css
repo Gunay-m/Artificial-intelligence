@@ -110,12 +110,8 @@ section.apply {
 
 /* ?----------CARDS-------- */
 .cards {
-   display: grid;
-   grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
-   gap: 10px;
-   text-align: center;
+   
    margin: 10px;
-   margin-top: 70px;
  
 }
 
@@ -125,7 +121,8 @@ section.apply {
    padding: 10px;
    border-radius: 10px;
    color: #fff;
-   width: 200px;
+   font-size: 16px;
+   
 }
 /* ?-----SOLUTIONS------------- */
  .solutions{
